@@ -1,0 +1,8 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Hey! It's time to solve the equation of a function f: N x N -> Z.    ┃
+┃ Function f has given certain conditions. In each step, solve the     ┃
+┃ equation f(x, y) = z with the given value of z. We know f(a+1, b) =  ┃
+┃ f(a, b) + a, and f(a, b+1) = f(a, b) - b, for every `a' and `b'.     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┃ We know: f(1, 1) = 394111134899 and f(x, y) = 1085928033286
+┃ Please send x, y separated by comma:

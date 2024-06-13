@@ -1,0 +1,8 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ .::   Soufia is a random oracle, your mission is to break it   ::. ┃
+┃ We know that f: Z → Z and for all integers `x' and `y' we have:    ┃
+┃     f(t * x) + t * f(y) = f(f(x + y)) for constant integer `t'.    ┃
+┃ Also, f(0) = 72941000642830230067361774345586172399,               ┃
+┃ and   f(38) = 8739081522949152426030392508796242569277             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┃ Please send the f(10):
