@@ -21,7 +21,7 @@ d = len(h.digits()) // 2
   * $10 ^ d \le g \le \sqrt{2} * 10 ^ d$
   * $f * (1, h) - k * (0, q) = (f, g)$
 ```python
-Matrix[[1, h], [0, q]].LLL()
+Matrix([[1, h], [0, q]]).LLL()
 ```
 * 最後對 `c` 動手腳解出 `m`
   * $c = r * h + m + r \mod{q}$

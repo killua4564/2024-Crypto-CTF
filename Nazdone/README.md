@@ -16,7 +16,7 @@ Nazdone is a cryptographic exercise focused on the practical challenges of gener
   * $n = p * q * r$
   * 給 $n$ 和 $c$ 求 `flag` 的 $m$
 * 整數不好分解，如果找到 $m$ 做成 $f(x)$ 就會比較好分解，畢竟 $0 \le c_{i} \le 2$
-  * 把 $n$ 拿去 `digits(m)` 做成 $m$ 進位來肉眼暴搜 $m$，找到 $m = 19$
+  * 把 $n$ 拿去 `n.digits(m)` 做成 $m$ 進位來肉眼暴搜 $m$，找到 $m = 19$
 ```python
 m = 19
 poly = sum(e * x ** i for i, e in enumerate(Integer(n).digits(m)))

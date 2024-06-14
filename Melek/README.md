@@ -11,7 +11,7 @@ Melek is a secret sharing scheme that may be relatively straightforward to break
   * $f$ 的常數項為 $m ^ e$， $1 \le e \le p - 1$
   * $f$ 項數為 $t$， $1 \le t \le nbit - 1$
   * 給 $PT$ 為 $t$ 組隨機數對 $(a, f(a))$， $1 \le a \le p - 1$
-* $t$ 次多項式給 $t$ 個點座標，拉格朗日插值法
+* $t$ 次多項式給定 $t$ 個點座標，拉格朗日插值法
 ```python
 R.<x> = PolynomialRing(GF(p))
 f = R.lagrange_polynomial(PT)

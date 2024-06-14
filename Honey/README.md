@@ -13,7 +13,7 @@ Honey is a concealed cryptographic algorithm designed to provide secure encrypti
   * $C = m * Q + r * R + s * S \mod{p}$ (for each)
     * $1 \le r, s \le 2 ^ {\sqrt{nbit / 2}}$
   * 給你 $p$, $Q$, $R$, $S$, $C$ 求 $m$
-* 看到這邊很明顯是 LLL 了，每兩式把 $m$ 消掉可以把 $(r, s)$ 求出來 (所以其實只需要兩個 $c$)
+* 看到這邊很明顯是 `LLL` 了，每兩式把 $m$ 消掉可以把 $(r, s)$ 求出來 (所以其實只需要兩個 $c$)
   * $m * Q_{0} + r_{0} * R_{0} + s_{0} * S_{0} = C_{0}$
   * $m * Q_{1} + r_{1} * R_{1} + s_{1} * S_{1} = C_{1}$
   * $m + r_{0} * R_{0} * Q_{0} ^ {-1} + s_{0} * S_{0} * Q_{0} ^ {-1} = C_{0} * Q_{0} ^ {-1}$
